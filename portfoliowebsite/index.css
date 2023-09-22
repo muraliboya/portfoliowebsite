@@ -5,7 +5,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    background: blue;
+    background: black;
 
 }
 .header{
@@ -14,7 +14,7 @@ body {
     left:0;
     width:100%;
     padding:20px 10%;
-    background: yellowgreen;
+    background: red;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -51,7 +51,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: palegreen;
+    background: black;
 }
 .wrapper{
     display:flex;
@@ -152,7 +152,7 @@ body {
     display: flex;
 }
 .last{
-    background-color: cadetblue;
+    background-color: white;
     height: 50vh;
     width: 100%;
     text-align: center;
@@ -161,51 +161,3 @@ body {
 .last .one{
     text-align: center;
 }
-.socialmedia{
-    display:inline-block;
-    height:60px;
-    width:60px;
-    float: left;
-    margin:0 5px;
-    overflow:hidden;
-    background: #fff;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0, .1);
-    transition: all o.3s ease-out;
-
-}
-.wrapper.button:hover{
-    width:200px;
-}
-.wrapper.button.icon{
-    display:inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    border-radius: 50px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-.wrapper.button:nth-child(1)
-hover.icon{background: #4367b2;}
-
-.wrapper.button:nth-child(2)
-hover.icon{background: #1da1f2;}
-
-.wrapper.button:nth-child(3)
-hover.icon{background: #e1306c;}
-.wrapper.utton.icon i{
-    font-size: 25px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-.wrapper.button:nth-child(1)
-span{color: #4267b2;}
-
-.wrapper.button:nth-child(2)
-span{color: #4267b2;}
-.wrapper.button:nth-child(3)
-span{color: #4267b2;}
-
-
